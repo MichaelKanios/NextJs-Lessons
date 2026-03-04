@@ -1,3 +1,37 @@
+1. Φτιαχνουμε reusable component hero.tsx 
+2. Περναμε με props σε καθε σελιδα τον Hero component 
+3. Τι Κερδιζω με αυτον τον τροπο 
+    1️⃣ Χρησιμοποιεί next/image
+
+Το <Image /> από το Next.js είναι optimized:
+
+automatic lazy loading
+
+automatic resizing
+
+καλύτερο performance
+
+SEO friendly
+
+2️⃣ Χρησιμοποιεί TypeScript interface
+interface HeroProps {
+  imgData: StaticImageData;
+  imgAlt: string;
+  title: string;
+}
+
+Αυτό σου δίνει:
+
+type safety
+
+autocomplete
+
+λιγότερα runtime bugs
+
+Για production apps → αυτό είναι must.
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
